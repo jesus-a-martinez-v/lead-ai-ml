@@ -118,7 +118,6 @@ class VectorStore:
             collection_name=collection_name,
             embedding_function=embeddings,
         )
-        self.retriever = self.vectorstore.as_retriever()
 
     def add_documents(self, documents: list[Document]):
         """
