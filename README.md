@@ -2,11 +2,11 @@ Here are the instructions to set up and run the project:
 
 1. **Create and activate a virtual environment:**
    ```sh
-   python -m venv env
-   source env/bin/activate   # On Windows use `env\Scripts\activate`
+   python -m venv venv
+   source venv/bin/activate   # On Windows use `env\Scripts\activate`
    ```
 
-2. **Install the dependencies:**
+2. **Install the dependencies:** 
    ```sh
    pip install -r requirements.txt
    ```
